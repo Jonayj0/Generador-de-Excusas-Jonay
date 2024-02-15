@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  document.querySelector("#excuse").innerHTML = generateExcuse();
+  document.getElementById("excuse").innerHTML = generateExcuse();
 };
 let generateExcuse = function() {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
